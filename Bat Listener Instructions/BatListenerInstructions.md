@@ -10,7 +10,17 @@
 
 # Overview
 
-![Image of TV-B-Gone] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_Final.png "Built TV-B-Gone PCB")
+Build your own Bat Detector!
+
+Bats use ultra-sonic pulses to navigate and to detect prey. These pulses are very high pitch (around 5 times the maximum frequency humans can hear). 
+
+This electronic circuit converts the high pitched sounds produced by bats to a human-audiable level. 
+
+It has a sensitivity control to adjust for different conditions.
+
+It can also be used to listen to other high frequencies such as peeling sticky tape, compact fluorescent lights and power supplies.
+
+This kit, although easy to build, requires quite a lot of soldering so will take in the region of 2-3 hours.
 
 # In use 
 
@@ -24,6 +34,100 @@
 | Component Name      | Value     | Quantity  | Reference   |
 |-----------------    |-------    |-----------|-----------  |
 | Capacitor           | 22uf      | 1         | C1          |
+
+Item
+Ref
+Item
+Ref
+PP3 Battery Clip
+BT1
+47k Resistor
+R1, R2
+100uf Capacitor
+C1, C2, C15
+10 ohm Resistor
+R3
+220nf Capacitor
+C3
+1.3k Resistor
+R4
+47nf Capacitor
+C4, C6
+150k Resistor
+R5
+220uf Capacitor
+C5
+100k Resistor
+R6
+2.2nf Capacitor
+C7
+1k Resistor
+R7,R8,R14
+1.5nf Capacitor
+C8
+470k Resistor
+R9
+100pf Capacitor
+C9, C16
+560k Resistor
+R10
+1nf Capacitor
+C10
+100 ohm Resistor
+R11
+33nf Capacitor
+C11
+10k Resistor
+R12
+470pf Capacitor
+C12,C13
+20k Potentiometer
+RV1
+100nf Capacitor
+C14
+40mm Loudspeaker
+SP1
+5.1V Zener Diode
+D1
+Switch
+SW1
+1N4148 small signal Diode
+D2,D3
+LM386 Audio Amplifier IC
+U1
+5mm Red LED
+D4
+TL074A Quad-comparator IC
+U2
+
+Ultrasonic Receiver
+P1
+4024 Counter IC
+U3
+BC337 Transistor
+Q1
+
+
+Enclosure
+Front
+x1
+3mm PCB spacer rings
+x4
+Back
+x1
+M3 Hex spacers 9mm 
+x6
+2mm Clear  Spacer
+x1
+M3 6mm machine screws
+x6
+3mm Wide Spacer (marked "M")
+x4
+M3 10mm machine screws
+x6
+3mm narrow spacer
+x1
+
 
 
 ## Enclosure parts
@@ -41,13 +145,8 @@ The main tools required are: Soldering Iron, solder and side cutters. A screw dr
 
 [Here is a good getting started guide to soldering] (https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
 
-# Step 1: Solder the IC socket
-![Solder IC Socket] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_1.png "Solder the IC Socket")
-
-Ensure the IC (integrated circuit) socket is soldered with the notch on the holder aligned with the notch shown on the silkscreen of the PCB.
-
-# Step 2: Solder the resistors
-![Solder Resistors] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_2.png "Solder the resistors x 4")
+# Step 1: Solder resistors
+![Solder Resistors] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_1.png "Solder the IC Socket")
 
 These resistors are:
 
@@ -59,8 +158,10 @@ These resistors are:
 | 1k ohm              | Brown, Black, Red, Gold    | R4        |
 
 The resistors do not have a polarity and can be soldered either way around.
+Ensure they are soldered flat close to the PCB.
+Use a multimeter or colour code chart to ensure correct resistor values.
 
-# Step 3: Solder the capacitors
+# Step 2: Solder the capacitors
 ![Solder Capacitors] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_3.png "Solder the capacitors x 2")
 
 The capacitors are:
@@ -70,102 +171,118 @@ The capacitors are:
 | 0.1uF              | Cream box with ".1J63" Markings                      | C1        |
 | 22uF               | Black cylinder with white stripe. "22uF" Marked      | C2        |
 
-C1 does not have a polarity and can be soldered either way around.
+First solder the non-polarised capacitors.
+Orientation of these does not matter:
 
-C2 **is** polarised. The long lead is positive (+ve). There is a white stripe down the negative side. Ensure the positive and negative leads align correctly. The positive lead needs to fit in the hole with the "+" symbol near it.
+Next solder the polarised capacitors. Ensure correct orientation of these components. 
+The negative lead is marked with a white strip. The positive lead is slightly longer than the negative. Align the positive lead with the + sign and the negative lead with the white PCB marking.
 
-# Step 4: Solder the switch
-![Solder Switch] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_4.png "Solder the switch")
 
-The switch fits in to the four holes marked "SW1" and "START".
+# Step 3: Solder the diodes
+![Solder Diodes] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_3.png "Solder the capacitors x 2")
 
-# Step 5: Solder the 16MHz resonator
-![Solder Resonator] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_5.png "Solder the resonator")
+There are 4 diodes to solder.
+Ensure correct orientation for these components.
 
-The resonator is the three-pin device and is soldered into the three holes near Y1. It does not matter which way round the device is soldered in. 
+First solder the LED into D4.
+The long lead is positive, so place that into the hole marked +. The negative side is slightly flat.
 
-# Step 6: Solder the red LED
-![Solder red LED] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_6.png "Solder the 3mm red LED")
+Then solder the 5.1V zener diode into D1. This diode is on its own and has very tiny marking of “5V1”. Ensure the black band aligns with the white band marked on the PCB.
 
-The red LED is soldered into the holes marked "D5". The LED has a polarity with the long lead being positive (+ve) and the shorter lead is negative. Also the negative side has a flat side on the plastic LED enclosure. Ensure the flat side aligns with the flat side of the LED. The flat side is the -ve. The rounded side is the +ve.
+The solder the remaining 2 diodes into D2 and D3. These have tiny markings saying “4148”. Ensure the black band aligns with the white band marked on the PCB.
 
-# Step 7: Solder the transistors
-![Solder Transistors] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_7.png "Solder the 5 x Transistors")
+# Step 4: Solder the transistor
+![Solder Transistor] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_4.png "Solder the switch")
 
-There are 5 transistors to solder in (4 of BC548 and 1 of BC640): 
+There is just one transistor to solder, Q1, BC337.
+Ensure the flat side of the transistor aligns with the PCB markings.
 
-| Value             | Marking  | Reference |
-|-----------------  |-------   |---------  |
-| BC640             | BC640    | Q1        |
-| BC548             | BC548    | Q2        |
-| BC548             | BC548    | Q3        |
-| BC548             | BC548    | Q4        |
-| BC548             | BC548    | Q5        |
+# Step 5: Solder the IC holders
+![Solder IC holders] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_5.png "Solder the resonator")
 
-The transistors have a polarity and the flat side of the transistor should align with the longer flat side of the silk screen. Please check the photo for more detail.
+There are two 14pin IC holders and one 8 pin IC holder. These fit into the areas marked U1, U2 and U3.
 
-# Step 8: Solder the infra-red LEDs
-![Solder IR LEDs] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_8.png "Solder the 4 x IR LEDs")
+Ensure correct orientation!
 
-The IR LEDs are transparent plastic and, to the human eye, they cannot be seen flashing. They emit light outside of human eye spectrum.
+Ensure the notch on the holder aligns with the notch shown on the PCB. 
 
-The IR LEDs are soldered into the holes marked "D1-D4". The LED has a polarity with the long lead being positive (+ve) and the shorter lead is negative. Also the negative side has a flat side on the plastic LED enclosure. Ensure the flat side aligns with the flat side of the LED. The flat side is the -ve. The rounded side is the +ve.
+# Step 6: Solder Switch and Potentiometer
+![Solder Switch] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_6.png "Solder the 3mm red LED")
 
-![Solder IR LEDs] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_8_b.png "Solder the 4 x IR LEDs")
+The switch fits into the holes marked SW1. The switch knob goes off the PCB.
+Solder all metal tabs.
 
-Bend the leads of the LED at 90 degrees so that they shine away from the PCB, as shown. 
+The potentiometer fits into the holes marked RV1. There are 5 pins to align and the pins might need slightly moving to ensure they align correctly.
+Solder all metal tabs.
 
-# Step 9: Insert programmed IC into socket. 
-![Insert IC] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_9.png "Insert the ATTiny85 IC")
+# Step 7: Solder the ultrasonic receiver
+![Solder Ultrasonic Receiver] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_7.png "Solder the 5 x Transistors")
 
-The programmed IC (an ATTint85 microcontroller) must be inserted the correct way. There is a small dot on the IC which indicates pin 1. This dot should be aligned with the notch shown on the PCB silkscreen and on the IC socket.
+The ultrasonic receiver has two pins, one is attached to the metal case of the unit, the other has a small ring around it.
 
-![Insert IC] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/ATtiny85-500x500.jpg "Insert the ATTiny85 IC")
+The pin with the small ring around it is the +ve connection and this pin fits in the hole with the + symbol. The ground fits next to the indicator P1.
 
-# Step 10: Wire up battery box
-![Solder Battery Box] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_Final.png "Solder on the battery box")
+Carefully bend the legs to 90 degrees to the receiver is facing away from the PCB.
 
-Push the wires from the battery box through the larger holes next to the word "Battery". These can then be knotted to provide strain relief. 
+# Step 8: Solder Speaker
+![Solder Speaker] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_8.png "Solder the 4 x IR LEDs")
 
-The red wire is the battery positive (+ve) and is soldered to the hole in P1 with the **square** pad, next to the **"+"** symbol. The black wire is soldered into the other pad.
+The speaker has a slightly unusual mounting method.
 
-# Step 11: Attach PCB to baseplate
+The speaker base fits through the large hole in the PCB and the speaker tabs alight with the PCB tabs.
 
-Use the 4 machine screws and the 8 nuts to hold the PCB to the baseplate as shown here:
+Use an offcut of resistor lead and solder two small leads from the PCB (as shown).
 
+Then pt the speaker in place and solder the small wires to the speaker.
+
+This method holds the speaker in place, as well as being the electrical connection.
+
+# Step 9: Solder PP3 battery connector 
+![Insert PP3 Battery] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_9.png "Insert the ATTiny85 IC")
+
+Nearly there!
+The PP3 battery clip as two wires: one positive (red) and one negative (black).
+
+I usually put a knot in the cable for strain relief.
+
+The cables then go through the larger holes and are fed back into the solder pads.
+
+The red cable goes through the hole to the pad marked “+”.
+
+# Step 10: Insert ICs
+![Insert ICs] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_Final.png "Solder on the battery box")
+
+Now we need to insert the ICs into their holders.
+Ensure the notches align with the notches on the IC holders and the PCB.
+
+U1 is the LM386 (8 pin)
+U2 is the TL074A (14 pin)
+U3 is the 4024 (14 pin)
+
+# Step 11: Insert battery and test
 ![PCB baseplate] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_122853_sm.jpg "Screws through baseplate")
-![PCB baseplate] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_122948_sm.jpg "Nuts onto screws")
-![PCB baseplate] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123023_sm.jpg "PCB onto Screws")
-![PCB baseplate] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123059_sm.jpg "PCB onto Screws")
 
+Add a PP3 9V battery to the battery clip. Switch the unit on.
+You may hear a squeal from the device. Adjust potentiometer until you just do not hear any noise.
 
-# Step 12: Attach battery box
+The red LED should also flash when the speaker clicks.
 
-Use the double-sided sticky pad to affix the battery box to the baseplate. Some of the battery holders do **NOT** have an on/off switch (it is not needed as the unit powers down into an ultra-low power state until the "START" button is pressed). You may need to cut the sticky pad into two pieces.
+Use a reel of sticky tape to test. Slowly peel the tape off the reel and you should hear crackles from the speaker. This is picking up high frequency sound from the glue breaking. You can also test by pointing at a compact fluorescent light bulb. These switch at around 100kHz and hence give off ultrasonic noise.
 
-![Stick down battery box] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123221_sm.jpg "Stick down battery box")
-![Stick down battery box] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123233_sm.jpg "Stick down battery box")
-![Stick down battery box] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123313_sm.jpg "Stick down battery box")
-![Stick down battery box] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123318_sm.jpg "Stick down battery box")
+# Step 12: PCB is finished!
 
-# Step 13: Add 3 x AAA batteries and test!
+Have a nice cup of tea!
+
+![Tea] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123221_sm.jpg "Stick down battery box")
+
+# Enclosure Instructions:
+
+# Step 1: Push out laser-cut parts and peel off protective layer
 
 ![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
-![Ready to go] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123415_sm.jpg "Ready to go!")
+Sometimes not all the small laser-cut pieces have been removed. These can be pushed out using the point of a screwdriver. Only slight force should be required.
 
-This device takes 3 x AAA batteries. Slide off the top cover of the battery holder and insert them as shown in the battery holder.
-The unit should spring into action with the red LED flashing. Each time the red LED flashes then a different TV 'OFF' code is sent. This means the unit is working. 
-
-If no sign of red LED flashing then please double check your soldering, the orientation and placement of all components and the IC orientation. 
-
-It will flash for around 60 seconds and then switch off. Press the black push-button switch to start the sequence again. The device sends out all the TV codes in sequence. Pressing the black button will cause it to start the sequence again.
-
-Use a digital camera to check the IR LEDs are working. A phone camera works well for this. You should see the LEDs flashing purple, which proves the device is sending IR codes. Here is a photo of the IR flashes taken on a phone camera:
- 
-![Test] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_LED_Test.png "Test the unit")
-
-**_Note:_ Most popular TV codes are used first but it may take over 60 seconds to scroll through all the codes.**
-
+There is a protective film on one side of the laser cut parts. This can be removed by peeling off the film.
 
 # Circuit Overview
 
