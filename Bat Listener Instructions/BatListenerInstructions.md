@@ -358,11 +358,9 @@ Electrical: Check the sound from switching power supplies and fluorescent lights
 
 # Circuit Overview
 
-This kit is based upon a circuit originally produced by [Mitch Altman] (http://www.tvbgone.com/cfe_tvbg_main.php)
+This kit is based upon a circuit [originally published by Elektor Electronics](http://www.elektor.com/magazines/2011/november/simple-bat-detector.1971945.lynkx)
 
-The circuit is based upon the [kit by Adafruit Industries] (http://www.ladyada.net/make/tvbgone/index.html)
-
-Kit developed by [Matt Little at Curious Electric] (http://www.curiouselectric.co.uk)
+It was originally developed as a workshop for [Nottingham Hackspace](www.nottinghack.co.uk)
 
 # Circuit Schematic
 
@@ -384,7 +382,7 @@ If any parts are missing from your kit then please email **hello@curiouselectric
 
 More technical information can be found via **www.curiouselectric.co.uk**
 
-The GITHUB repository for all the files is: **https://github.com/curiouselectric/TVBGone**
+The GITHUB repository for all the files is: **https://github.com/curiouselectric/batlistener**
 
 This kit has been designed and produced by:
 
