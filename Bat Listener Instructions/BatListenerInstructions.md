@@ -284,6 +284,78 @@ Sometimes not all the small laser-cut pieces have been removed. These can be pus
 
 There is a protective film on one side of the laser cut parts. This can be removed by peeling off the film.
 
+# Step 2: Screw down the PCB
+
+![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+
+The PCB is held onto the back plate using the M3 10mm screws and the hex spacers.
+
+The back plate has the text facing to the back.
+
+The screws fit through the back plate then through a small circular spacer ring and then through the PCB.
+
+It is then held in place using the threaded hex spacer.
+
+Do this for all four corners of the PCB.
+
+
+# Step 3: Add end spacers
+
+![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+
+To hold the end spacers in place we again use the 10mm screws and 2 of the hex spacers.
+
+Put them through the back plate and slightly screw the hex spacer onto the screw.
+
+Do not fully tighten this, as it will need to spin to be adjusted in the next step.
+
+# Step 4: Add battery holders
+
+![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+
+The battery holders are 6 spacers which holds one end of the battery, with the other end being held the notch in the PCB.
+There are three types of spacer:
+1 x narrow 3mm spacer (in white frosted plastic)
+4 x wide 3mm spacers (with an “M” etched on them).
+1 x narrow 2mm spacer in clear plastic.
+
+These fit onto the hex spacers we just added.
+
+First add the narrow 3mm piece.
+
+Then the 4 wide 3mm pieces (marked “M”).
+
+Put the battery into the enclosure. The PP3 battery clip fits within the wider section, with the cable able to come out of the side.
+
+The final narrow 2mm space is put on top.
+
+
+# Step 5: Fit top cover
+
+![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+
+The front cover is then put on with the text facing upwards.
+Use the final 6 x 6mm M3 machine screws to hold the front cover in place.
+These fasten into the threaded hex spacers.
+
+Note: Some covers do not have the hole for the LED. The LED can be seen through the frosted plastic, so it is not needed.
+
+# Step 6: Finished!
+
+![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+
+That is the unit finished!
+
+The on/off switch and the potentiometer are accessible via the side of the unit.
+
+You now have your own bat detector.
+
+There are many things you can investigate including:
+
+Nature: monitor bats, mice and rats
+
+Electrical: Check the sound from switching power supplies and fluorescent lights
+
 # Circuit Overview
 
 This kit is based upon a circuit originally produced by [Mitch Altman] (http://www.tvbgone.com/cfe_tvbg_main.php)
