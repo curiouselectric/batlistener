@@ -2,7 +2,9 @@ Bat Listener Instructions
 =========================
 
 *By: Matthew Little*
+
 *Date: 9th Sept 2017*
+
 *hello@curiouselectric.co.uk*
 
 Overview
@@ -148,7 +150,11 @@ Tools required
    :width: 400px
 
 
-The main tools required are: Soldering Iron, solder and side cutters. A screw driver and small set of pliers is also useful.
+The main tools required are: 
+
+Soldering Iron, solder and side cutters. 
+
+A screw driver and small set of pliers are also useful.
 
 A useful guide for learning to solder is available here:
 
