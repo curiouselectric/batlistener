@@ -29,7 +29,8 @@ This kit, although easy to build, requires quite a lot of soldering so will take
 
 ## PCB and components
 
-![Image of components] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/Components.png "Kit Components")
+.. image:: Photos/Components.png?raw=true
+   :width: 400px
 
 | Component Name      | Value     | Quantity  | Reference   |
 |-----------------    |-------    |-----------|-----------  |
