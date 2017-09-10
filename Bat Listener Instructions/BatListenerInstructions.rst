@@ -2,13 +2,15 @@
 <img  src="https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/CuriousElectricCompany_Logo_Web_Header.png" width="200" >
 </p>
 
-# Bat Listener Instructions
+Bat Listener Instructions
+=========================
 
 **By: Matthew Little,      Date: 17th Feb 2017**
 
 **hello@curiouselectric.co.uk**
 
-# Overview
+Overview
+--------
 
 Build your own Bat Detector!
 
@@ -368,36 +370,44 @@ It was originally developed as a workshop for [Nottingham Hackspace](www.notting
 ![Circuit Schematic] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/TVBGoneSchematic.pdf "The Circuit Schematic")
 
 
-# PCB overview
+PCB overview
+------------
+
 ![PCB] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/TVBGone_PCB.pdf "The PCB overview")
 
-# Suppliers Information
+Suppliers Information
+----------------------
 
-We would like you to be happy with this kit. If you are not happy for any reason then please contact us and we will help to sort it out. 
+We would like you to be happy with this kit. If you are not happy for any reason then please contact us and we will help to sort it out.
 
-Please email **hello@curiouselectric.co.uk** with any questions or comments.
-
-Please tweet us at **@curiouselectric**
+Please email **hello@curiouselectric.co.uk** with any questions or comments or please tweet us at **@curiouselectric**
 
 If any parts are missing from your kit then please email **hello@curiouselectric.co.uk** with details and, if possible, where the kit was purchased.
 
 More technical information can be found via **www.curiouselectric.co.uk**
 
-The GITHUB repository for all the files is: **https://github.com/curiouselectric/batlistener**
+The GITHUB repository for all these files is: **https://github.com/curiouselectric/soldersolar**
 
 This kit has been designed and produced by:
 
-<p align="center">
-<b>The Curious Electric Company</b><br>
-hello@curiouselectric.co.uk<br>
-www.curiouselectric.co.uk<br>
-Hopkinson,<br>
-21 Station Street,<br>
-Nottingham,<br>
-NG2 3AJ, UK<br>
-</p>
-<p align="center">
+.. image:: Instruction_Photos/CuriousElectricCompany_Logo_Round_Logo_sm.png?raw=true
+   :width: 400px
 
-<img src="https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/CuriousElectricCompany_Logo_Round_Logo.png" width="300" align="middle">
-</p>
+
+..
+
+   The Curious Electric Company
+   
+   hello@curiouselectric.co.uk
+   
+   www.curiouselectric.co.uk
+   
+   Hopkinson,
+   
+   21 Station Street,
+   
+   Nottingham,
+   
+   NG2 3AJ, UK
+
 
