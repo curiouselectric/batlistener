@@ -427,7 +427,7 @@ The GITHUB repository for all these files is: **https://github.com/curiouselectr
 
 This kit has been designed and produced by:
 
-.. image:: Instruction_Photos/CuriousElectricCompany_Logo_Round_Logo_sm.png?raw=true
+.. image:: Photos/CuriousElectricCompany_Logo_Round_Logo_sm.png?raw=true
    :width: 400px
 
 
