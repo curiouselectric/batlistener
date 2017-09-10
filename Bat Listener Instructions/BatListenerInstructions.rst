@@ -209,7 +209,12 @@ The negative lead is marked with a white strip. The positive lead is slightly lo
 Step 3: Solder the diodes
 -------------------------
 
-![Solder Diodes] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_3.png "Solder the capacitors x 2")
+.. image:: Photos/diodes1.jpg?raw=true
+   :width: 400px
+   
+.. image:: Photos/diodes2.jpg?raw=true
+   :width: 400px
+
 
 There are 4 diodes to solder.
 Ensure correct orientation for these components.
@@ -224,7 +229,11 @@ The solder the remaining 2 diodes into D2 and D3. These have tiny markings sayin
 Step 4: Solder the transistor
 -----------------------------
 
-![Solder Transistor] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_4.png "Solder the switch")
+.. image:: Photos/transistor1.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/transistor2.jpg?raw=true
+   :width: 400px
 
 There is just one transistor to solder, Q1, BC337.
 Ensure the flat side of the transistor aligns with the PCB markings.
@@ -232,7 +241,11 @@ Ensure the flat side of the transistor aligns with the PCB markings.
 Step 5: Solder the IC holders
 -----------------------------
 
-![Solder IC holders] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_5.png "Solder the resonator")
+.. image:: Photos/icholders1.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/icholders2.jpg?raw=true
+   :width: 400px
 
 There are two 14pin IC holders and one 8 pin IC holder. These fit into the areas marked U1, U2 and U3.
 
@@ -243,7 +256,11 @@ Ensure the notch on the holder aligns with the notch shown on the PCB.
 Step 6: Solder Switch and Potentiometer
 ---------------------------------------
 
-![Solder Switch] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_6.png "Solder the 3mm red LED")
+.. image:: Photos/switchpot1.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/switchpot2.jpg?raw=true
+   :width: 400px
 
 The switch fits into the holes marked SW1. The switch knob goes off the PCB.
 Solder all metal tabs.
@@ -254,7 +271,14 @@ Solder all metal tabs.
 Step 7: Solder the ultrasonic receiver
 --------------------------------------
 
-![Solder Ultrasonic Receiver] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_7.png "Solder the 5 x Transistors")
+.. image:: Photos/ultrasonic1.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/ultrasonic2.jpg?raw=true
+   :width: 400px
+   
+.. image:: Photos/ultrasonic3.jpg?raw=true
+   :width: 400px
 
 The ultrasonic receiver has two pins, one is attached to the metal case of the unit, the other has a small ring around it.
 
@@ -265,7 +289,14 @@ Carefully bend the legs to 90 degrees to the receiver is facing away from the PC
 Step 8: Solder Speaker
 ----------------------
 
-![Solder Speaker] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_8.png "Solder the 4 x IR LEDs")
+.. image:: Photos/speaker1.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/speaker2.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/speaker3.jpg?raw=true
+   :width: 400px
 
 The speaker has a slightly unusual mounting method.
 
@@ -280,7 +311,14 @@ This method holds the speaker in place, as well as being the electrical connecti
 Step 9: Solder PP3 battery connector 
 ------------------------------------
 
-![Insert PP3 Battery] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_9.png "Insert the ATTiny85 IC")
+.. image:: Photos/pp31.jpg?raw=true
+   :width: 400px
+   
+.. image:: Photos/pp32.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/pp33.jpg?raw=true
+   :width: 400px
 
 Nearly there!
 
@@ -295,7 +333,11 @@ The red cable goes through the hole to the pad marked “+”.
 Step 10: Insert ICs
 -------------------
 
-![Insert ICs] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_Final.png "Solder on the battery box")
+.. image:: Photos/ics1.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/ics2.jpg?raw=true
+   :width: 400px
 
 Now we need to insert the ICs into their holders.
 Ensure the notches align with the notches on the IC holders and the PCB.
@@ -306,8 +348,6 @@ U3 is the 4024 (14 pin)
 
 Step 11: Insert battery and test
 --------------------------------
-
-![PCB baseplate] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_122853_sm.jpg "Screws through baseplate")
 
 Add a PP3 9V battery to the battery clip. Switch the unit on.
 You may hear a squeal from the device. Adjust potentiometer until you just do not hear any noise.
@@ -321,7 +361,9 @@ Step 12: PCB is finished!
 
 Have a nice cup of tea!
 
-![Tea] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123221_sm.jpg "Stick down battery box")
+If you have designed your own enclosure then you can stop here.
+If you have bought our kit with the enclosure then here are the instructions to fit the completed PCB into the laser cut enclosure. 
+
 
 Enclosure Instructions:
 =======================
@@ -329,7 +371,12 @@ Enclosure Instructions:
 Step 1: Push out laser-cut parts and peel off protective layer
 --------------------------------------------------------------
 
-![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+.. image:: Photos/enclosure1.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/enclosure2.jpg?raw=true
+   :width: 400px
+
 Sometimes not all the small laser-cut pieces have been removed. These can be pushed out using the point of a screwdriver. Only slight force should be required.
 
 There is a protective film on one side of the laser cut parts. This can be removed by peeling off the film.
@@ -337,7 +384,17 @@ There is a protective film on one side of the laser cut parts. This can be remov
 Step 2: Screw down the PCB
 --------------------------
 
-![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+.. image:: Photos/enclosure3.jpg?raw=true
+   :width: 400px
+   
+.. image:: Photos/enclosure4.jpg?raw=true
+   :width: 400px
+   
+.. image:: Photos/enclosure5.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/enclosure6.jpg?raw=true
+   :width: 400px
 
 The PCB is held onto the back plate using the M3 10mm screws and the hex spacers.
 
@@ -353,7 +410,11 @@ Do this for all four corners of the PCB.
 Step 3: Add end spacers
 -----------------------
 
-![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+.. image:: Photos/enclosure7.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/enclosure8.jpg?raw=true
+   :width: 400px
 
 To hold the end spacers in place we again use the 10mm screws and 2 of the hex spacers.
 
@@ -364,7 +425,11 @@ Do not fully tighten this, as it will need to spin to be adjusted in the next st
 Step 4: Add battery holders
 ---------------------------
 
-![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+.. image:: Photos/enclosure9.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/enclosure10.jpg?raw=true
+   :width: 400px
 
 The battery holders are 6 spacers which holds one end of the battery, with the other end being held the notch in the PCB.
 There are three types of spacer:
@@ -382,11 +447,20 @@ Put the battery into the enclosure. The PP3 battery clip fits within the wider s
 
 The final narrow 2mm space is put on top.
 
+.. image:: Photos/enclosure11.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/enclosure12.jpg?raw=true
+   :width: 400px
 
 Step 5: Fit top cover
 ---------------------
 
-![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+.. image:: Photos/enclosure13.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/enclosure14.jpg?raw=true
+   :width: 400px
 
 The front cover is then put on with the text facing upwards.
 Use the final 6 x 6mm M3 machine screws to hold the front cover in place.
@@ -397,7 +471,8 @@ Note: Some covers do not have the hole for the LED. The LED can be seen through 
 Step 6: Finished!
 -----------------
 
-![Insert batteries] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_123338_sm.jpg "Insert 3 x AAA batteries")
+.. image:: Photos/finished1_web.jpg?raw=true
+   :width: 400px
 
 That is the unit finished!
 
@@ -407,9 +482,9 @@ You now have your own bat detector.
 
 There are many things you can investigate including:
 
-Nature: monitor bats, mice and rats
+**Nature:** monitor bats, mice and rats
 
-Electrical: Check the sound from switching power supplies and fluorescent lights
+**Electrical:** Check the sound from switching power supplies and fluorescent lights
 
 Circuit Overview
 ================
@@ -421,13 +496,8 @@ It was originally developed as a workshop for [Nottingham Hackspace](www.notting
 Circuit Schematic
 -----------------
 
-![Circuit Schematic] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/TVBGoneSchematic.pdf "The Circuit Schematic")
-
-
-PCB overview
-------------
-
-![PCB] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/TVBGone_PCB.pdf "The PCB overview")
+.. image:: Photos/Schematic.png?raw=true
+   :width: 400px
 
 Suppliers Information
 =====================
