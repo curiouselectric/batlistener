@@ -1,16 +1,18 @@
 Bat Listener Instructions
 =========================
 
-**By: Matthew Little**
-**Date: 9th Sept 2017**
-
-**hello@curiouselectric.co.uk**
+*By: Matthew Little*
+*Date: 9th Sept 2017*
+*hello@curiouselectric.co.uk*
 
 Overview
 --------
 
 Build your own Bat Detector!
 
+.. image:: Photos/MattLittle-KitProductPhotos-17.jpg?raw=true
+   :width: 400px
+   
 Bats use ultra-sonic pulses to navigate and to detect prey. These pulses are very high pitch (around 5 times the maximum frequency humans can hear). 
 
 This electronic circuit converts the high pitched sounds produced by bats to a human-audiable level. 
@@ -21,13 +23,6 @@ It can also be used to listen to other high frequencies such as peeling sticky t
 
 This kit, although easy to build, requires quite a lot of soldering so will take in the region of 2-3 hours.
 
-In use 
-------
-
-**** photo??
-
-.. image:: Photos/CuriousElectricCompany_Logo_Round_Logo_sm.png?raw=true
-   :width: 400px
 
 Components
 ----------
@@ -38,19 +33,27 @@ PCB and components
 .. image:: Photos/parts1_web.png?raw=true
    :width: 400px
 
++-------------------------+-----------+----------+---------------+
+| Component Name          | Value     | Quantity |  Reference    |
++======+==================+===========+==========+===============+
+| PP3 Battery Clip        |           |  1       |  BT1          |
++-------------------------+-----------+----------+---------------+
+| 100uf Capacitor         | 100uf     |  3       |  C1, C2, C15  |
++-------------------------+-----------+----------+---------------+
+
+
+
+
+
+
 | Component Name      | Value     | Quantity  | Reference   |
 |-----------------    |-------    |-----------|-----------  |
 | Capacitor           | 22uf      | 1         | C1          |
 
-Item
-Ref
-Item
-Ref
-PP3 Battery Clip
-BT1
+
 47k Resistor
 R1, R2
-100uf Capacitor
+
 C1, C2, C15
 10 ohm Resistor
 R3
@@ -160,7 +163,7 @@ The main tools required are: Soldering Iron, solder and side cutters. A screw dr
 Step 1: Solder resistors
 ------------------------
 
-.. image:: Photos/resistors1.jpg?raw=true
+.. image:: Photos/resistors1.png?raw=true
    :width: 400px
 
 .. image:: Photos/resistors2.jpg?raw=true
@@ -182,8 +185,21 @@ Use a multimeter or colour code chart to ensure correct resistor values.
 Step 2: Solder the capacitors
 -----------------------------
 
-![Solder Capacitors] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_3.png "Solder the capacitors x 2")
+.. image:: Photos/capacitors1.jpg?raw=true
+   :width: 400px
 
+.. image:: Photos/capacitors2.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/capacitors3.jpg?raw=true
+   :width: 400px
+
+.. image:: Photos/capacitors4.jpg?raw=true
+   :width: 400px
+   
+.. image:: Photos/capacitors5.jpg?raw=true
+   :width: 400px
+   
 The capacitors are:
 
 | Value              | Identification                                       | Reference |
