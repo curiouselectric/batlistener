@@ -88,7 +88,7 @@ The kit contains the following electronic components:
 +-------------------------+-----------+----------+---------------+
 | Resistor                | 560k      |  1       | R10           |
 +-------------------------+-----------+----------+---------------+
-| Resistor                | 100       |  1       | R11, R2       |
+| Resistor                | 100       |  1       | R11           |
 +-------------------------+-----------+----------+---------------+
 | Resistor                | 10k       |  1       | R12           |
 +-------------------------+-----------+----------+---------------+
@@ -150,7 +150,14 @@ Tools required
 
 The main tools required are: Soldering Iron, solder and side cutters. A screw driver and small set of pliers is also useful.
 
-[Here is a good getting started guide to soldering] (https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
+A useful guide for learning to solder is available here:
+
+https://cdn.shopify.com/s/files/1/0943/8168/files/soldercomic.pdf
+
+And a more detaileld guide is available here:
+
+https://cdn.shopify.com/s/files/1/0943/8168/files/FullSolderComic_EN.pdf
+
 
 Step 1: Solder resistors
 ------------------------
@@ -163,15 +170,36 @@ Step 1: Solder resistors
    
 These resistors are:
 
-| Value               | Colours                    | Reference |
-|-----------------    |-------                     |-----------|
-| 1k ohm              | Brown, Black, Red, Gold    | R1        |
-| 10k ohm             | Brown, Black, Orange, Gold | R2        |
-| 10k ohm             | Brown, Black, Orange, Gold | R3        |
-| 1k ohm              | Brown, Black, Red, Gold    | R4        |
++------------+----------------------------+-------------+
+| Value      | Colours                    | Reference   |
++============+============================+=============+
+| 47k ohm     | Brown, Black, Red, Gold    | R1,R2       |
++------------+----------------------------+-------------+
+| 10 ohm    | Brown, Black, Black, Gold | R3          |
++------------+----------------------------+-------------+
+| 1.3k ohm*    | Brown, Black, Orange, Gold | R4          |
++------------+----------------------------+-------------+
+| 159k ohm     | Brown, Black, Red, Gold    | R5          |
++------------+----------------------------+-------------+
+| 100k ohm     | Brown, Black, Red, Gold    | R6          |
++------------+----------------------------+-------------+
+| 1k ohm     | Brown, Black, Red, Gold    | R7, R8, R14 |
++------------+----------------------------+-------------+
+| 470k ohm     | Brown, Black, Red, Gold    | R9          |
++------------+----------------------------+-------------+
+| 560k ohm     | Brown, Black, Red, Gold    | R10         |
++------------+----------------------------+-------------+
+| 100 ohm     | Brown, Black, Brown, Gold    | R11         |
++------------+----------------------------+-------------+
+| 10k ohm     | Brown, Black, Orange, Gold    | R12         |
++------------+----------------------------+-------------+
+
+* = Note: This resistor is blue lcoured and has 5 bands.
 
 The resistors do not have a polarity and can be soldered either way around.
+
 Ensure they are soldered flat close to the PCB.
+
 Use a multimeter or colour code chart to ensure correct resistor values.
 
 Step 2: Solder the capacitors
