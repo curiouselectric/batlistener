@@ -26,13 +26,16 @@ In use
 
 **** photo??
 
+.. image:: Photos/CuriousElectricCompany_Logo_Round_Logo_sm.png?raw=true
+   :width: 400px
+
 Components
 ----------
 
 PCB and components
 ------------------
 
-.. image:: Photos/Components.png?raw=true
+.. image:: Photos/parts1_web.png?raw=true
    :width: 400px
 
 | Component Name      | Value     | Quantity  | Reference   |
@@ -112,7 +115,17 @@ BC337 Transistor
 Q1
 
 
-Enclosure
+
+Enclosure parts
+---------------
+
+.. image:: Photos/parts2_web.png?raw=true
+   :width: 400px
+   
+
+| Component Name      | Info                      | Quantity  | 
+|-----------------    |-------                    |-----------|
+| Base Plate          | 3mm Laser-cut plastic     | 1         |
 Front
 x1
 3mm PCB spacer rings
@@ -133,20 +146,12 @@ x6
 x1
 
 
-
-Enclosure parts
----------------
-
-![Image of base plate parts] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/IMG_20160113_122831_sm.jpg "Base plate parts")
-
-| Component Name      | Info                      | Quantity  | 
-|-----------------    |-------                    |-----------|
-| Base Plate          | 3mm Laser-cut plastic     | 1         |
-
 Tools required
 --------------
 
-![Image of tools] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/Tools.JPG "Tools required")
+.. image:: Photos/tools1.png?raw=true
+   :width: 400px
+
 
 The main tools required are: Soldering Iron, solder and side cutters. A screw driver and small set of pliers is also useful.
 
@@ -155,8 +160,12 @@ The main tools required are: Soldering Iron, solder and side cutters. A screw dr
 Step 1: Solder resistors
 ------------------------
 
-![Solder Resistors] (https://github.com/curiouselectric/TVBGone/blob/master/TVBGone_Instructions/Photos/PCB_1.png "Solder the IC Socket")
+.. image:: Photos/resistors1.jpg?raw=true
+   :width: 400px
 
+.. image:: Photos/resistors2.jpg?raw=true
+   :width: 400px
+   
 These resistors are:
 
 | Value               | Colours                    | Reference |
