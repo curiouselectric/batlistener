@@ -116,32 +116,25 @@ Enclosure parts
 .. image:: Photos/parts2_web.png?raw=true
    :width: 400px
    
-+-------------------------+-----------+----------+---------------+
-| Component Name          | Value     | Quantity |  Reference    |
-+======+==================+===========+==========+===============+
-| PP3 Battery Clip        |           |  1       |  BT1          |
-+-------------------------+-----------+----------+---------------+
-
-
-Front
-x1
-3mm PCB spacer rings
-x4
-Back
-x1
-M3 Hex spacers 9mm 
-x6
-2mm Clear  Spacer
-x1
-M3 6mm machine screws
-x6
-3mm Wide Spacer (marked "M")
-x4
-M3 10mm machine screws
-x6
-3mm narrow spacer
-x1
-
++---------------+--------------------------------------------+----------+ 
+| Item          | Description and notes                      | Quantity |
++======+========+============================================+==========+
+| Front         | 3mm Frosted Acrylic                        | 1        |
++---------------+--------------------------------------------+----------+ 
+| Back          | 3mm Frosted Acrylic                        | 1        |
++---------------+--------------------------------------------+----------+ 
+| Spacer levels | 3mm Frosted Acrylic                        | 4        |
++---------------+--------------------------------------------+----------+ 
+| 3mm Spacer    | 3mm Frosted Acrylic. Marked with number    | 1        |
++---------------+--------------------------------------------+----------+ 
+| 2mm Spacer    | 2mm clear Acrylic. Marked '6'              | 1        |
++---------------+--------------------------------------------+----------+ 
+| Hex Spacer    | Nylon, M3 9mm Hex spacer                   | 6        |
++---------------+--------------------------------------------+----------+ 
+| 6/8mm Screw   | M3, 6 or 8mm long Macine screw             | 6        |
++---------------+--------------------------------------------+----------+ 
+| 6/8mm Screw   | M3, 6 or 8mm long Macine screw             | 6        |
++---------------+--------------------------------------------+----------+ 
 
 Tools required
 --------------
@@ -152,9 +145,11 @@ Tools required
 
 The main tools required are: 
 
-Soldering Iron, solder and side cutters. 
-
-A screw driver and small set of pliers are also useful.
+- Soldering Iron, 
+- Solder,
+- Side cutters,
+- Screw driver (pozi-head, small),
+- Small pliers.
 
 A useful guide for learning to solder is available here:
 
