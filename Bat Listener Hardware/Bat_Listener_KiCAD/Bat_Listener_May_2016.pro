@@ -1,4 +1,4 @@
-update=16/10/2016 17:24:35
+update=13/05/2020 16:02:52
 version=1
 last_client=kicad
 [general]
@@ -63,6 +63,7 @@ LibName29=contrib
 LibName30=valves
 LibName31=matts_components
 LibName32=D:/Google Drive/KiCAD/KiCad My Libraries/matts_components
+LibName33=G:/My Drive/KiCAD/kicad_reinnovation/KiCad My Libraries/matts_components
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -70,6 +71,6 @@ PlotDirectoryName=../Bat Listener 2016 - Instructions/Bat Listener 2016 Photos/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
+ERC_TestSimilarLabels=1

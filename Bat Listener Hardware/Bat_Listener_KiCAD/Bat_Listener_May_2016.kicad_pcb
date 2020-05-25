@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)-1")
 
   (general
-    (links 85)
-    (no_connects 0)
-    (area 95 35 155.000001 145.000001)
     (thickness 1.6002)
     (drawings 19)
     (tracks 386)
@@ -18,8 +15,8 @@
   )
 
   (layers
-    (0 Component signal)
-    (31 Copper signal)
+    (0 Component signal hide)
+    (31 Copper signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -41,8 +38,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.0508)
-    (segment_width 0.381)
-    (edge_width 0.381)
     (via_size 0.889)
     (via_drill 0.635)
     (via_min_size 0.225806)
@@ -52,6 +47,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.127)
     (uvia_min_drill 0.0127)
+    (edge_width 0.381)
+    (segment_width 0.381)
     (pcb_text_width 0.3048)
     (pcb_text_size 1.524 2.032)
     (mod_edge_width 0.381)
@@ -65,6 +62,9 @@
     (pcbplotparams
       (layerselection 0x010e0_80000001)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer false)
       (linewidth 0.150000)
       (plotframeref false)
@@ -73,8 +73,7 @@
       (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 0)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -86,7 +85,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory BatListenerMay2016_v4_Gerber/))
+      (outputdirectory "BatListenerMay2016_v4_Gerber/"))
   )
 
   (net 0 "")
@@ -188,7 +187,7 @@
     (descr "14 pins DIL package, elliptical pads")
     (tags DIL)
     (path /4EC4322E)
-    (fp_text reference U3 (at -4.821 -6.289 360) (layer F.SilkS)
+    (fp_text reference U3 (at -4.821 -6.289) (layer F.SilkS)
       (effects (font (size 1.524 1.143) (thickness 0.28702)))
     )
     (fp_text value 4024 (at 0.508 0.127 180) (layer F.SilkS)
@@ -240,7 +239,7 @@
     (path /57B2D840)
     (attr virtual)
     (fp_text reference D4 (at -3.175 -3.556 180) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value SENSE (at 0 3.81 180) (layer F.SilkS) hide
       (effects (font (size 0.762 0.762) (thickness 0.0889)))
@@ -457,7 +456,7 @@
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /4EC2BF10)
-    (fp_text reference C3 (at -3.048 -2.286 360) (layer F.SilkS)
+    (fp_text reference C3 (at -3.048 -2.286) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 220n (at 1.27 -0.127 270) (layer F.SilkS) hide
@@ -588,7 +587,7 @@
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /4EC2BF0C)
-    (fp_text reference C7 (at -3.429 -0.127 360) (layer F.SilkS)
+    (fp_text reference C7 (at -3.429 -0.127) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 2n2 (at 1.27 -3.81 270) (layer F.SilkS) hide
@@ -642,7 +641,7 @@
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /4EC2C2EC)
-    (fp_text reference C9 (at -3.429 0.127 360) (layer F.SilkS)
+    (fp_text reference C9 (at -3.429 0.127) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 100p (at -0.254 -1.778 270) (layer F.SilkS) hide
@@ -777,7 +776,7 @@
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /4EC2C4A6)
-    (fp_text reference C14 (at -3.81 0 360) (layer F.SilkS)
+    (fp_text reference C14 (at -3.81 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 100n (at 1.143 -0.127 270) (layer F.SilkS) hide
@@ -854,7 +853,7 @@
     (descr "Condensateur e = 1 pas")
     (tags C)
     (path /4EC2C55F)
-    (fp_text reference C16 (at -3.302 0 360) (layer F.SilkS)
+    (fp_text reference C16 (at -3.302 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 100p (at 0 -1.905 270) (layer F.SilkS) hide
@@ -971,10 +970,10 @@
     (descr "Transistor TO92 brochage type BC237")
     (tags "TR TO92")
     (path /5735D847)
-    (fp_text reference Q1 (at -5.141 -0.249 360) (layer F.SilkS)
+    (fp_text reference Q1 (at -5.141 -0.249) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value BC337 (at -3.175 -1.27 360) (layer F.SilkS) hide
+    (fp_text value BC337 (at -3.175 -1.27) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start -1.27 2.54) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
@@ -1062,7 +1061,7 @@
     (tags R)
     (path /4EC2C117)
     (autoplace_cost180 10)
-    (fp_text reference R3 (at 5.908 -0.122 540) (layer F.SilkS)
+    (fp_text reference R3 (at 5.908 -0.122 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value 10 (at 0 0 270) (layer F.SilkS) hide
@@ -1485,7 +1484,7 @@
       (effects (font (size 1.524 1.016) (thickness 0.254)))
     )
     (fp_text user + (at 11.308 1.077 180) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_line (start 2.54 -1.27) (end 10.16 -1.27) (layer F.SilkS) (width 0.381))
     (fp_line (start 10.16 -1.27) (end 10.16 1.27) (layer F.SilkS) (width 0.381))
@@ -1511,7 +1510,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "uP O/P" (at -2.667 1.27 270) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_line (start 1.27 1.27) (end 1.27 3.81) (layer F.SilkS) (width 0.15))
     (fp_line (start -1.27 1.27) (end -1.27 3.81) (layer F.SilkS) (width 0.15))
@@ -1525,7 +1524,7 @@
     (pad 2 thru_hole oval (at 0 2.54 180) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 2 GND))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x03.wrl
-      (at (xyz 0 -0.1 0))
+      (offset (xyz 0 -2.539999961853027 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -1535,10 +1534,10 @@
     (at 105.41 40.767)
     (path /57B2F6D9)
     (fp_text reference P10 (at 0 5) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO1 (at 0 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.15)))
+      (effects (font (size 1.524 1.524) (thickness 0.15)))
     )
     (fp_poly (pts (xy 0.27 0.27) (xy 0.36 0.27) (xy 0.36 0.36) (xy 0.27 0.36)
       (xy 0.27 0.27)) (layer F.SilkS) (width 0.01))
@@ -6504,10 +6503,10 @@
     (at 138.303 85.852)
     (path /57B2F6DF)
     (fp_text reference P11 (at 0 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO2 (at 0.75 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 1.165967 -4.858388) (xy 1.953088 -4.605432) (xy 2.693197 -4.221904) (xy 3.368661 -3.710668)
       (xy 3.961847 -3.074588) (xy 4.455123 -2.316528) (xy 4.536068 -2.159) (xy 4.864322 -1.315884)
@@ -6708,10 +6707,10 @@
     (at 131.826 40.005)
     (path /576D4EC6)
     (fp_text reference P4 (at 0 5) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value BAT (at 0 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.15)))
+      (effects (font (size 1.524 1.524) (thickness 0.15)))
     )
     (fp_poly (pts (xy 2.97 0.54) (xy 3.06 0.54) (xy 3.06 0.63) (xy 2.97 0.63)
       (xy 2.97 0.54)) (layer F.SilkS) (width 0.01))
@@ -11975,10 +11974,10 @@
     (at 119.38 74.422)
     (path /576D4A99)
     (fp_text reference P3 (at 0 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value NO_Pb (at 0.75 0) (layer F.SilkS) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 2.691322 0.284114) (xy 2.550757 0.899361) (xy 2.265702 1.476664) (xy 2.243667 1.507305)
       (xy 2.243667 -0.042333) (xy 2.235467 -0.411996) (xy 2.201939 -0.674504) (xy 2.12969 -0.891615)
@@ -12029,7 +12028,7 @@
       (xy -1.054662 -2.501521) (xy -0.598754 -2.624096) (xy -0.04176 -2.66518) (xy 0.042333 -2.665547)
       (xy 0.572539 -2.638514) (xy 0.996431 -2.54552) (xy 1.371029 -2.365282) (xy 1.753353 -2.076512)
       (xy 1.850558 -1.990534) (xy 2.267014 -1.5064) (xy 2.547356 -0.947055) (xy 2.68949 -0.340787)
-      (xy 2.691322 0.284114) (xy 2.691322 0.284114)) (layer F.SilkS) (width 0.1))
+      (xy 2.691322 0.284114)) (layer F.SilkS) (width 0.1))
   )
 
   (module REInnovationFootprint:DIP-14__300_ELL_lg_pad (layer Component) (tedit 57C96343) (tstamp 576D03BC)
@@ -12037,7 +12036,7 @@
     (descr "14 pins DIL package, elliptical pads")
     (tags DIL)
     (path /4EC2BEED)
-    (fp_text reference U2 (at -4.821 -6.289 360) (layer F.SilkS)
+    (fp_text reference U2 (at -4.821 -6.289) (layer F.SilkS)
       (effects (font (size 1.524 1.143) (thickness 0.28702)))
     )
     (fp_text value TL074A (at 0.508 0.127 180) (layer F.SilkS)

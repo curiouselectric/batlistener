@@ -1,0 +1,276 @@
+Cmp-Mod V01 Created by CVpcb (20090216-final) date = Wed 16 Nov 2011 22:12:51 GMT
+
+BeginCmp
+TimeStamp = /4EC2BF32;
+Reference = BT1;
+ValeurCmp = BATTERY;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF10;
+Reference = C1;
+ValeurCmp = 220n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF07;
+Reference = C2;
+ValeurCmp = 47n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF1F;
+Reference = C3;
+ValeurCmp = 220u;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF09;
+Reference = C4;
+ValeurCmp = 47n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF0C;
+Reference = C5;
+ValeurCmp = 2n2;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF0E;
+Reference = C6;
+ValeurCmp = 1n5;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C2EC;
+Reference = C7;
+ValeurCmp = 100p;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF1B;
+Reference = C8;
+ValeurCmp = 100u;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF19;
+Reference = C9;
+ValeurCmp = 100u;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C389;
+Reference = C10;
+ValeurCmp = 1n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C386;
+Reference = C11;
+ValeurCmp = 470p;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C383;
+Reference = C12;
+ValeurCmp = 470p;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C4A6;
+Reference = C13;
+ValeurCmp = 100n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C55F;
+Reference = C14;
+ValeurCmp = 100p;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C7C4;
+Reference = C15;
+ValeurCmp = 100u;
+IdModule  = C1V7;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C7BC;
+Reference = C16;
+ValeurCmp = 33n;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF7B;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF76;
+Reference = D2;
+ValeurCmp = 1N4148;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF9A;
+Reference = P1;
+ValeurCmp = ULTRASON;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C0B4;
+Reference = Q1;
+ValeurCmp = BC337;
+IdModule  = TO92-EBC_ML;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C117;
+Reference = R1;
+ValeurCmp = 10;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C1A3;
+Reference = R2;
+ValeurCmp = 1k3;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C2E3;
+Reference = R3;
+ValeurCmp = 150k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C58F;
+Reference = R4;
+ValeurCmp = 47k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C591;
+Reference = R5;
+ValeurCmp = 47k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C38B;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C38F;
+Reference = R7;
+ValeurCmp = 560k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C567;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C7B9;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C7AD;
+Reference = R10;
+ValeurCmp = 100;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C7B5;
+Reference = R11;
+ValeurCmp = 470k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C7B3;
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2C4BB;
+Reference = RV1;
+ValeurCmp = 22k;
+IdModule  = RV2X4_VERTICAL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF89;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BF45;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BEC2;
+Reference = U1;
+ValeurCmp = LM386;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC2BEED;
+Reference = U2;
+ValeurCmp = TL074A;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC4322E;
+Reference = U?;
+ValeurCmp = 4024_power;
+IdModule  = DIP-14__300_ELL;
+EndCmp
+
+EndListe

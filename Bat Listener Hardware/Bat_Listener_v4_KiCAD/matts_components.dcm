@@ -1,0 +1,431 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 16MHz
+D Crystal TH
+$ENDCMP
+#
+$CMP 4017
+D Jonhson Counter ( 10 outputs )
+K CNT CNT10
+$ENDCMP
+#
+$CMP 4050
+D Hex Buffer
+K CMOS BUFFER
+$ENDCMP
+#
+$CMP 4051
+D Analog Multiplexer 8 to 1 lins
+K CMOS MUX MUX8
+$ENDCMP
+#
+$CMP 74LS595
+D 8 bits serial in // out Shift Register 3 State Out
+K TTL SR 3State
+$ENDCMP
+#
+$CMP 74LS596
+D 8 bits serial in // out Shift Register Open Collect.
+K HCMOS SR OpenCol
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP AD595
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP AMP_3WST
+D Connector 01x08
+$ENDCMP
+#
+$CMP BI_LED
+D LED DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+$CMP BQ27210
+D Li Ion Battery Monitor IC
+K POWER REGUL
+F http://www.ti.com/lit/ds/symlink/bq27210.pdf
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP DC-DC
+K LED
+$ENDCMP
+#
+$CMP DC-DC_GENERIC
+K LED
+$ENDCMP
+#
+$CMP DHT22
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP DIGI_SPARK
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP DIP-8W
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP DISPLAY_PC0802-A
+D Afficheur LCD 8X2 - PC0802-A
+K Afficheur LCD
+F http://www.powertip.com.tw
+$ENDCMP
+#
+$CMP DS18B20
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP DUAL_DIODE
+D ESD clamp diode
+K DIODE, CLAMP
+$ENDCMP
+#
+$CMP ESD
+D ESD clamp diode
+K DIODE, CLAMP
+$ENDCMP
+#
+$CMP ESDA6V1-5W6
+D ESD clamp diode
+K DIODE, CLAMP
+F http://www.farnell.com/datasheets/1671027.pdf
+$ENDCMP
+#
+$CMP FOD817ASD
+D FOD817ASD
+K NPN DC Optocoupler
+F http://www.farnell.com/datasheets/1563587.pdf
+$ENDCMP
+#
+$CMP FUSE
+D MULTICOMP MC36188
+K PTC Resettable Fuse
+F http://www.farnell.com/datasheets/1648358.pdf
+$ENDCMP
+#
+$CMP IC_16PIN
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP ISO1541D
+D I2C Isolator
+K ISOLATOR
+F http://www.ti.com/lit/ds/symlink/iso1541.pdf
+$ENDCMP
+#
+$CMP JACK_TRS_6PINS
+D audio jack TRS 6 pins
+K audio jack connector TRS
+$ENDCMP
+#
+$CMP JOYSTICK
+D Trimmer
+K R
+$ENDCMP
+#
+$CMP L4940V5
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LCD_PC0802-A_LED
+D Afficheur LCD 8X2 - PC0802-A
+K Afficheur LCD
+F http://www.powertip.com.tw
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP LED_A_C
+K LED
+$ENDCMP
+#
+$CMP LM2596
+D DC DC converter. 3A Step Down.
+K DC/DC, Step Down.
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+$CMP LM386
+D Audio Power Amp.
+K Audio Power
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LMP8601
+D Bi-Directional Current Sense Amplifier. High CMVR.
+K CURRENT SENSE AMP
+F http://www.ti.com/lit/ds/symlink/lmp8601.pdf
+$ENDCMP
+#
+$CMP LP3984IMF-1.5
+D LDO 1.5V
+K POWER REGUL
+F http://docs-europe.electrocomponents.com/webdocs/06f3/0900766b806f377b.pdf
+$ENDCMP
+#
+$CMP LT1990
+D High CMVR difference amplifier
+K DIFFERENCE AMPLIFIER
+F http://cds.linear.com/docs/en/datasheet/1990fb.pdf
+$ENDCMP
+#
+$CMP LTC3105_MSOP
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LTC3240-3.3
+D Step Up/Down 3.3V regulator
+K POWER REGUL
+F http://cds.linear.com/docs/en/datasheet/3240fb.pdf
+$ENDCMP
+#
+$CMP MCP1700
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MCP1702-50
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MCP1790
+D LDO 3.3V
+K POWER REGUL
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22200C.pdf
+$ENDCMP
+#
+$CMP MCP1804
+D LDO 3.3V
+K POWER REGUL
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22200C.pdf
+$ENDCMP
+#
+$CMP MCP1826S-3302
+D LDO 3.3V
+K POWER REGUL
+F http://docs-europe.electrocomponents.com/webdocs/137e/0900766b8137eda2.pdf
+$ENDCMP
+#
+$CMP MCP3008
+D MCP3008, 8-Channel 10-Bit A/D Converters with SPI Serial Interface
+K 8-Channel 10-Bit ADC SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf
+$ENDCMP
+#
+$CMP MCP3008_16pin
+D MCP3008, 8-Channel 10-Bit A/D Converters with SPI Serial Interface
+K 8-Channel 10-Bit ADC SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf
+$ENDCMP
+#
+$CMP MCP3008_v1
+D MCP3008, 8-Channel 10-Bit A/D Converters with SPI Serial Interface
+K 8-Channel 10-Bit ADC SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf
+$ENDCMP
+#
+$CMP MCP3208
+D MCP3208, 8-Channel 10-Bit A/D Converters with SPI Serial Interface
+K 8-Channel 10-Bit ADC SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf
+$ENDCMP
+#
+$CMP MCP3427
+D 16-Bit I2C ADC 2 differential channels
+K ADC, I2C
+F http://www.farnell.com/datasheets/630366.pdf
+$ENDCMP
+#
+$CMP MCP9701
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP MMBT3904
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP MOD1007
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP MOD1021
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP NCP1117
+D 800mA Low Dropout Linear Regulator, TO220 package
+F /home/walter/Documenti/Elettronica/DATA_SHEET/Elettronici/Integrati/Analogici/Regolatori/TI_LM1117.pdf
+$ENDCMP
+#
+$CMP NCP500
+D LDO 3.3V
+K POWER REGUL
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22200C.pdf
+$ENDCMP
+#
+$CMP NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP NPN_S0323
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP OKI-78SR-5
+D DC DC converter  +5V 1.5A
+K POWER REGUL
+$ENDCMP
+#
+$CMP PIN
+K Photo Diode
+$ENDCMP
+#
+$CMP PNP
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP POT_DUAL
+D Trimmer
+K R
+$ENDCMP
+#
+$CMP PWR_JMP
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP QUECTEL_M95
+D GSM Module
+K GSM, GPRS
+F http://www.quectel.com/UploadImage/Downlad/M95_Hardware_Design_V1.3.pdf
+$ENDCMP
+#
+$CMP RGB_LED
+K LED
+$ENDCMP
+#
+$CMP RG_LED
+D LED DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+$CMP RJ11
+D DC Barrel Jack
+$ENDCMP
+#
+$CMP RPi_B
+D Raspberry Pi Model B
+$ENDCMP
+#
+$CMP SIM900
+D GSM Module
+K GSM, GPRS
+F http://www.simcom.us/act_admin/supportfile/SIM900_HD_V1.01%28091226%29.pdf
+$ENDCMP
+#
+$CMP SIM_HOLDER
+D SIM Card holder
+K SIM
+$ENDCMP
+#
+$CMP SMA_RF_50ohm
+D RF Coaxial Connector
+K ANTENNA
+$ENDCMP
+#
+$CMP STC3100
+D Li Ion Battery Monitor IC
+K POWER REGUL
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00219947.pdf
+$ENDCMP
+#
+$CMP TLC555
+D CMOS Timer
+K Timer NE555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TLC555_8PIN
+D CMOS Timer
+K Timer NE555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+$CMP TPS70933
+D LDO 3.3V
+K POWER REGUL
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22200C.pdf
+$ENDCMP
+#
+$CMP TXB0104PWR
+D Logice Level Shifter
+F http://www.ti.com/lit/ds/symlink/txb0104.pdf
+$ENDCMP
+#
+$CMP USB-B
+D USB B-TYPE connector
+K USB
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+$CMP ZENER_SOT23
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library
