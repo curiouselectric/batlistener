@@ -1219,7 +1219,7 @@ Wire Wire Line
 Text Notes 5300 2050 0    60   ~ 0
 VIRTUAL \nGROUND
 $Comp
-L Device:LED D4
+L Bat_Listener_v4-rescue:LED-Device D4
 U 1 1 57B2D840
 P 8650 4700
 F 0 "D4" H 8650 4800 50  0000 C CNN
