@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="Bat_Listener_2020_Headphones_Version_Enclosure.svg">
+   sodipodi:docname="Bat_Listener_2020_Headphones_Version_Enclosure_600_400.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.44932462"
-     inkscape:cx="988.14272"
-     inkscape:cy="731.76044"
+     inkscape:zoom="0.31772049"
+     inkscape:cx="446.48996"
+     inkscape:cy="896.84422"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
