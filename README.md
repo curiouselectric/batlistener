@@ -1,4 +1,4 @@
-# Bat Listener 2016
+# Bat Listener
 Design files for the Bat Listener kit as sold by https://www.curiouselectric.co.uk/
 
 The kit is available to purchase here:
